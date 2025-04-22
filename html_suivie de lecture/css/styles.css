@@ -1,0 +1,72 @@
+/* déclaration de fonts */
+
+@font-face{
+	font-family:"DINNLight";
+	src:url('../fonts/DINNLight.otf');
+}
+@font-face{
+	font-family:"DINNBdCond";
+	src:url('../fonts/DINNBdCond.otf');
+}
+@font-face{
+	font-family:"DINMStd";
+	src:url('../fonts/DINMStd.otf');
+}
+.monTitre{
+	font-family:"DINNLight";
+	padding: 20px;
+	font-size: 55px;
+	text-align: center;
+}
+.courantrom{
+	font-family:"DINNLight";
+	padding: 20px;
+	font-size: 13px;
+	text-align: left;
+}
+.actes{
+	font-family:"DINNLight";
+	padding: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+.courant{
+	font-family:"DINMStd";
+	padding: 20px;
+	font-size: 14px;
+	text-align: left;
+	color: #FFFFFF;
+	background-color: #000000;
+	border-style: double;
+	border-width: 6px;
+}
+.image{
+	width: 300px; 
+	margin: 20px;
+	align: center;
+}
+.conteneur-centre{
+	text-align:center;
+}
+/* dès que la largeur dépasse 768, le fond est jaune */
+@media screen and (min-width:768px){
+	
+	.monTitre{
+		text-align: left;
+		font-size: 3.8em;
+		padding-top: 60px;
+		padding-bottom: 10px;
+	}
+	.courantrom{
+	font-size: 15px;
+}
+    .image{
+    	width: 400px;
+    }
+
+@media screen and (min-width:1200px){
+	
+    .image{
+    	width: 600px;
+    }
+
